@@ -113,7 +113,7 @@ function sumarElementosListas(listaPrimaria, listaSecundaria) {
   for (let i = 0; i < listaPrimaria.length; i++) {
     listaResultado[i] = listaPrimaria[i] + listaSecundaria [i];
   }
-  return listaResultado.push();
+  return listaResultado;
 }
 
 sumarElementosListas(listaPrimaria, listaSecundaria);
@@ -129,7 +129,7 @@ function cuadradoDeNumeros(numerosBase) {
     for (let i = 0; i < numerosBase.length; i++) {
         cuadrados[i] = numerosBase[i]*numerosBase[i];        
     }
-    return cuadrados.push();
+    return cuadrados;
 }
 
 cuadradoDeNumeros(numerosBase);
